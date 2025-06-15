@@ -5,10 +5,10 @@ const SuperQuality = () => {
   return (
     <section
     id="about-us"
-    className="flex justify-between items-center max:lg-flex-col gap-10 w-full max-container"
+    className="flex flex-col lg:flex-row justify-between items-center gap-10 w-full max-container "
     >
 <div className="flex flex-1 flex-col">
-  <h2 className="font-palanquin text-4xl capitalize max-sm:text-[72px] font-bold lg:max-w-lg">
+  <h2 className="font-palanquin text-4xl capitalize max-sm:text-[50px] font-bold lg:max-w-lg">
  We Provide You
     <span className="text-coral-red "> Spuer </span>
     <span className="text-coral-red "> Quality </span>
